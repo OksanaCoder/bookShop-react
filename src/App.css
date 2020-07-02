@@ -17,6 +17,10 @@ body {
 .grey-bag {
   background-color: #1A1A1D;
 }
+.card-img {
+  object-fit: cover;
+  height: 60%;
+}
 .relat-awes {
   position: absolute;
   top: 6px;
@@ -75,6 +79,21 @@ body {
 .fonts-col {
   display: flex;
   justify-content: space-between;
+
+}
+.card-box {
+  height: calc(100% - 10px);
+  border: none !important;
+  background: transparent !important;
+
+}
+.font-card {
+  font-size: 13px !important;
+  color: #636365;
+  padding-top: 10px;
+}
+.parag {
+  font-size: 10px;
 
 }
 .prof-nav div {
